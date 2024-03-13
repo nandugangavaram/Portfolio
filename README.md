@@ -1,211 +1,89 @@
-# Reactfolio V1.2 👩🏽‍🚀
+# Welcome to Gouri Nandan Reddy's Portfolio
 
-Reactfolio is a modern and customizable personal portfolio web template built using the popular React library. It provides an easy way for developers, designers, and creatives to showcase their work, skills, and achievements in a professiona and visually appealing way. With its responsive design and clean code, Reactfolio can be easily tailored to suit individual needs and preferences, making it an ideal choice for anyone looking to create a stunning online portfolio.
+## About Me
 
-<center>
-<img src="https://i.imgur.com/ZWPO61A.jpeg" alt="Reactfolio" />
-</center>
+I am an IT Master's graduate with a computer science background, boasting 2 years of experience as an Associate Consultant. Proficient in Java, Python, JavaScript, and SQL, I have successfully contributed to various projects, enhancing product functionality, optimizing data processing efficiency, and fostering collaboration within teams. My expertise spans both front-end and back-end development, encompassing data science, DevOps tools, and UI/UX design. My commitment to excellence is evident in my track record of delivering high-quality outcomes, coupled with comprehensive experience in project management, requirements gathering, and documentation. Notable achievements include leading the creation and enhancement of standard functionalities, orchestrating seamless object migrations, and improving fall detection accuracy through machine learning models. My dedication to innovation and efficiency, coupled with a strong technical skill set, positions me as a valuable asset in the dynamic field of computer science.
 
-Live demo here: <a href="https://reactfolio.tharindu.dev/" target="_blank">reactfolio.tharindu.dev</a>
-<br/>
-Readme here: <a href="https://tharindu.dev/portfolio/reactfolio/" target="_blank">tharindu.dev/portfolio/reactfolio/</a>
+## Work Experience
 
--   [Features](#-features)
--   [Getting started](#-getting-started)
--   [Installation and Setup Instructions](#-installation-and-setup-instructions)
--   [Folder structure](#-folder-structure)
--   [Configurations](#-configurations)
--   [Google Analytics](#-google-analytics)
--   [Building the React App](#-building-the-react-app)
--   [FAQ](#-faq)
--   [Contribution](#-contribution)
+### Associate Consultant, M3IOXLLC - United States (Remote) ~ December 2022 - March 2023
 
-## 📙 Features
+-   Developed interfaces and enhancements for already existing products as per the requirements of different clients.
+-   Made use of similar programming languages and standards such as Java, Python, JavaScript, XML, and XSLT among others to create pipelines and integrate two different systems by manipulating and migrating information as required from one end to the other all while following proper guidelines and standards established for each project.
+-   Gathered requirements and made documentation for each set of interfaces devised.
+-   Worked closely with functional as well as business analysts to gather as much information as required to satisfy all the business goals and ensure seamless integration and alignment with client requirements.
+-   Implementation of different test cases to ensure the integrity of new objects before sending them to UAT.
+-   Migration of objects to Production after completion of UAT along with proper support if needed.
+-   Implemented performance optimizations for both existing interfaces and new interfaces to ensure efficient data processing and responsiveness within the product.
+-   I have made extensive use of APIs which enabled me to proper data management and interaction for each integration. A huge part of my work involves implementing CRUD operations, using all the different functions and resources programmatically.
 
--   📖 Multi-Page Layout
-    -   Home
-    -   About
-    -   Projects
-    -   Articles
-    -   Contact
--   📱 Fully Responsive
--   🛠 Easy configurations
+### Associate Consultant, Infor India Pvt Limited - India ~ July 2019 - June 2021
 
-## 📚 Getting started
+-   Created new and enhanced different standard functionalities for already existing Infor In-house applications.
+-   To meet the specific needs of different clients, I have used a wide range of programming languages, such as Java, Python, SQL, HTML, CSS, JavaScript, XML, and XSLT. I followed industry best practices for these projects to ensure that high-quality solutions were delivered that either met or surpassed client expectations.
+-   Developed pipelines for integrating many different applications for migrating and transforming information using XML, XSLT, and SQL between in-house applications and client’s applications in the most effective way satisfying all the requirements.
+-   Used JavaScript, HTML, and CSS to enhance the interactivity and responsiveness of the in-house applications as well as integrating different design features to accommodate the client’s workflow thereby increasing efficiency.
+-   Proficient use of APIs was a core part of my workflow. I orchestrated different APIs using in-house applications to create different APIs using python and Groovy programming languages which allowed for the efficient creation of new data, retrieving real-time information, and such.
+-   Managed to work for different customer industries distribution, food, fashion, manufacturing, Technology and supply chain all based in different countries like the US, UK, SA, Japan, India, etc.
+-   Extensive experience in Infor M3 ERP package. Demonstrated record of troubleshooting and supporting worldwide customers.
+-   Worked directly with customers to gather requirements and document the entire process.
+-   Professional experience in working both individually and as a group on a project and completing tasks within the deadlines.
+-   Effective version controlling was followed to maintain better collaboration and tracking of any changes during the development phase. Adhered to security standards to ensure most confidentiality and integrity of sensitive data.
+-   Implemented robust error handling mechanisms and logging practices to establish an effective way for identifying errors and bugs during the development or integrating phase.
+-   Trained for both emotional intelligence and cultural understanding for having professional conversations.
 
-Clone down this repository. You will need `NodeJS` and `git` installed globally on your machine.
+## Projects
 
-## 🛠 Installation and Setup Instructions
+### Project 1: Front/Back-End Developer
 
-1. Installation: `npm install`
+-   Designed Wireframes along with MongoDB integration to set up the application.
+-   Integration with AWS storage buckets to store video files and get links for sharing.
+-   Helped in formulating Machine learning models for fall detection over live camera feed.
+-   Handled both front-end & back-end for building layouts and to store/retrieve user information from DB.
+-   Implemented Express package to handle user authentication for register/login and store user sessions to stay signed in.
+-   Followed proper MVC architecture for code to maintain proper standards.
+-   Designed documentation for all findings as well as all features and details related to the application.
+-   Validated different functionalities of code using chai testing to assert if the output matches expected results.
 
-2. Run the project: `npm start`
+### Project 2: Front/Back-End Developer
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-The page will reload if you make edits.
+-   Created a cookery web page, where people could upload recipes, and the ability to upload videos and instructions for new recipes.
+-   Illustrated app using low-fidelity models by devising wireframes.
+-   Incorporated MongoDB connection where a list of recipes is updated in real-time for all users.
+-   Coded socket communication feature where people can interact with other people online or post queries related to a recipe and get instant feedback.
+-   Documented all sets of features and functions coded and following best programming practices.
 
-## 📁 Folder structure
+### Project 3: Data Scientist
 
--   `/public`: publicly accessible contents (ex: images, media).
--   `/src`: all the components used in this project.
-    -   `/src/components/`: each reusable components of each pages.
-    -   `/src/data`: configurations of the web app.
-    -   `/src/pages`: pages that include in the web app.
+-   Conducted research on various datasets to look for patterns that would benefit the company and clients.
+-   Worked with different tools like Tableau and Python to clean data and design graphs and interesting visuals that would help the sales team better understand these datasets and analyze and comprehend diverse customer needs.
+-   Documented each set of findings and steps followed to achieve results and presented it to the entire team.
+-   Used Tableau with Python as a set of tools to track processes of data analysis in a professional setting, such as data collection, data cleaning, data analysis, and data visualization. setting, such as data collection, data cleaning, data analysis, and data visualization.
 
-## ⚙️ Configurations
+## Skills
 
-Since this is a public and open source project, you can make any changes to it. If you are a ReactJS developer you can do it easily. But if you are a beginner, I have extracted the configurable data into a single directory, so you can edit the files in that directory to configure the entire web application.
+-   **Programming Languages:** Python, Java, C++, SQL, R.
+-   **Web Technologies:** JavaScript, HTML5, CSS, jQuery, React JS, XML, XSLT, Node.js, MongoDB, JSON, REST.
+-   **DevOps Tools:** Git, Jira.
+-   **Development Tools:** VS Code, Eclipse, Postman, JIRA, Git, Docker, Selenium, Tableau, AWS S3 Storage.
+-   **UI/UX:** Figma, Pencil Project, Adobe Illustrator.
+-   **Operating Systems:** Windows, Linux (Ubuntu, and Kali Linux), Mac OS.
 
-Directory: `/src/data/`
+## Education
 
--   `user.js`
+-   **Master's of Information Technology (Professional)**
 
-    From this you can change the content of each page of the web application.
+    -   _Deakin University, Melbourne_
+    -   _July 2021 – March 2023_
 
--   `articles.js`
+-   **Bachelor’s in Computer Science & Engineering**
+    -   _GITAM University, India_
+    -   _July 2015 – April 2019_
 
-    From this you can add your articles to the web application.
+## Contact
 
-    Instructions:
+-   **Email:** nandugangavaram@gmail.com
+-   **LinkedIn:** https://in.linkedin.com/in/gouri-nandan-reddy-gangavaram-889b4315a
+-   **Location:** Melbourne, VIC, Australia
 
-    -   Add new article
-
-        1. Create a new function starts with `article_`. For example you can add new function named `article_3`.
-
-        2. Then add the data accordingly.
-
-            - Add `<React.Fragment>` tag and it's closing tags in body.
-            - In React there has no keyword `class`, so you should use `className` to define html classes.
-
-            ```js
-            function article_3() {
-            	return {
-            		date: "7 May 2023",
-            		title: "The Benefits of Cloud Computing",
-            		description: "Why businesses are turning to the cloud.",
-            		style: `
-            				.random-image {
-            					align-self: center;
-            					outline: 2px solid red;
-            				}
-            				`,
-            		body: (
-            			<React.Fragment>
-            				<div className="article-content">
-            					<div className="paragraph">
-            						Content of article 1
-            					</div>
-            					<img
-            						src="https://picsum.photos/200/300"
-            						alt="random"
-            						className="random-image"
-            					/>
-            				</div>
-            			</React.Fragment>
-            		),
-            	};
-            }
-            ```
-
-        3. In the last lines you will see an array to which you need to add your new `articles` function.
-
-            ```js
-            const myArticles = [article_1, article_2, article_3];
-            ```
-
--   `seo.js`
-
-    The SEO.js file is a module that contains an array of objects, with each object representing metadata for a specific page of a React website. The purpose of this file is to centralize and manage the SEO (Search Engine Optimization) information for different pages.
-
-    Each object in the SEO array has the following properties:
-
-    `page`: Represents the page name or identifier. It helps in mapping the SEO data to the appropriate page.
-
-    `title`: Specifies the title of the page. This title is typically displayed in the browser's title bar and is an important element for search engines.
-
-    `description`: Provides a concise and informative description of the page content. This description is often displayed in search engine results and can greatly influence click-through rates.
-    keywords: Contains an array of keywords relevant to the page's content. Keywords can help search engines understand the topics covered on the page and can impact its visibility in search results.
-    By storing the SEO information in the SEO.js file, you can easily manage and update the metadata for different pages of your React website. This approach allows you to keep the SEO data separate from the components and reuse it across the application, ensuring consistent and optimized metadata for each page.
-
-    Example:
-
-    ```js
-    const SEO = [
-    	{
-    		page: "home",
-    		description:
-    			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies.",
-    		keywords: ["Tharindu", "Tharindu N", "Tharindu Nayanajith"],
-    	},
-    ];
-    ```
-
--   `styles.css`
-
-    From this you can change the font colors and font families of the web application.
-
-    ```css
-    :root {
-    	/* ------- colors ------- */
-    	--primary-color: #27272a;
-    	--secondary-color: #65656d;
-    	--tertiary-color: #acacb4;
-    	--quaternary-color: #e4e4e7;
-    	--link-color: #14b8a6;
-    	/* ---------------------- */
-
-    	/* ------- fonts ------- */
-    	--primary-font: "Heebo", sans-serif;
-    	--secondary-font: "Roboto", sans-serif;
-    	/* --------------------- */
-    }
-    ```
-
-## 📈 Google Analytics
-
-Add your Google Analytics 4 MEASUREMENT ID to `/src/data/tracking.js`.
-
-How to find the Google Analytics 4 MEASUREMENT ID ?
-
-[https://support.google.com/analytics/answer/9539598?hl=en](https://support.google.com/analytics/answer/9539598?hl=en)
-
-## 🚀 Building the React App
-
-To build the React app, you can use the `npm run build` command. This will create a production-ready build of your app in the `build/` directory.
-
-Here are the steps to follow:
-
-1. Open a terminal window and navigate to the root directory of your React app.
-2. Run the `npm run build` command to create a production build of your app. This will generate a static bundle of your app in the `build/` directory.
-3. Copy the contents of the `build/` directory to your server's public directory. You can do this using an FTP client or by running a command like `scp` to transfer the files to your server. Make sure to replace `example.com` and `/var/www/html` with your server's domain name and public directory, respectively:
-
-    ```bash
-    scp -r build/* user@example.com:/var/www/html
-    ```
-
-4. Your portfolio app should now be accessible from your server's domain name. You can verify this by opening a web browser and navigating to http://example.com (replace example.com with your server's domain name).
-
-That's it! Your React portfolio app should now be up and running on your server. Note that you may need to configure your server's web server (e.g., Apache or Nginx) to serve the index.html file in the build/ directory as the default page for your domain.
-
-## 🤔 FAQ
-
-**Q1. Subpages can only be accessed through links on the homepage or navigation bar, but those pages are not accessible through direct links.**
-
-If you are using Apache as your web server, you can insert this into your .htaccess file:
-
-```c
-<IfModule mod_rewrite.c>
-  RewriteEngine On
-  RewriteBase /
-  RewriteRule ^index\.html$ - [L]
-  RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteCond %{REQUEST_FILENAME} !-d
-  RewriteCond %{REQUEST_FILENAME} !-l
-  RewriteRule . /index.html [L]
-</IfModule>
-```
-
-## 🌱 Contribution
-
-If you have any suggestions on what to improve in Reactfolio and would like to share them, feel free to leave an issue or fork project to implement your own ideas
+Feel free to explore my projects and don't hesitate to get in touch. Looking forward to connecting with fellow developers and collaborators!
