@@ -71,6 +71,7 @@
 
 .homepage-after-title {
 	display: flex;
+	justify-content: center;
 }
 
 .homepage-projects {
@@ -132,6 +133,7 @@
 
 	.homepage-after-title {
 		flex-direction: column;
+		justify-content: center;
 	}
 
 	.homepage-projects {

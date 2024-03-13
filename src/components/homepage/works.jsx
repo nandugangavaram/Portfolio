@@ -19,11 +19,13 @@ const Works = () => {
 								alt="facebook"
 								className="work-image"
 							/>
-							<div className="work-title">Facebook</div>
+							<div className="work-title">M3IOX LLC</div>
 							<div className="work-subtitle">
-								Software Engineer
+								Associate Consultant
 							</div>
-							<div className="work-duration">2019 - Present</div>
+							<div className="work-duration">
+								Dec, 2022 - Mar, 2023
+							</div>
 						</div>
 
 						<div className="work">
@@ -32,11 +34,30 @@ const Works = () => {
 								alt="twitter"
 								className="work-image"
 							/>
-							<div className="work-title">Twitter</div>
-							<div className="work-subtitle">
-								Software Engineer
+							<div className="work-title">
+								Infor India Pvt Limited
 							</div>
-							<div className="work-duration">2019 - Present</div>
+							<div className="work-subtitle">
+								Associate Consultant
+							</div>
+							<div className="work-duration">
+								Jul, 2019 - Jun, 2021
+							</div>
+						</div>
+
+						<div className="work">
+							<img
+								src="./twitter.png"
+								alt="twitter"
+								className="work-image"
+							/>
+							<div className="work-title">
+								Hexagon CCI Pvt Limited
+							</div>
+							<div className="work-subtitle">QA Engineer</div>
+							<div className="work-duration">
+								Mar, 2018 - Aug, 2018
+							</div>
 						</div>
 					</div>
 				}

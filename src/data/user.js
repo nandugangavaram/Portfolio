@@ -1,30 +1,32 @@
 const INFO = {
 	main: {
-		title: "Reactfolio by truethari",
-		name: "Tharindu N.",
-		email: "mail@tharindu.dev",
+		title: "Reactfolio by Gouri Nandan Reddy G",
+		name: "Gouri Nandan Reddy Gangavaram",
+		email: "nandugangavaram@gmail.com",
 		logo: "../logo.png",
 	},
 
 	socials: {
 		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
-		instagram: "https://instagram.com/",
+		github: "https://github.com/nandugangavaram",
+		linkedin:
+			"https://in.linkedin.com/in/gouri-nandan-reddy-gangavaram-889b4315a",
+		instagram: "https://www.instagram.com/nandugangavaram/",
 		stackoverflow: "https://stackoverflow.com/",
 		facebook: "https://facebook.com/",
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile app developer, and amateur astronaut.",
+		title: "Gouri Nandan Reddy, Gangavaram",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"Proactive Computer Science Master's graduate with 2 years as an Associate Consultant in a professional work experience. Proficient in Java, Python, JavaScript, and SQL, excelling in designing and implementing interfaces, pipelines, and features aligned with client needs and industry best practices.",
 	},
 
 	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
+		title: "I’m Gouri Nandan. I live in Melbourne, Australia.",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+			"I am a IT Master's graduate with a computer science background, boasting 2 years of experience as an Associate Consultant. Proficient in Java, Python, JavaScript, and SQL, I have successfully contributed to various projects, enhancing product functionality, optimizing data processing efficiency, and fostering collaboration within teams. My expertise spans both front-end and back-end development, encompassing data science, DevOps tools, and UI/UX design. My commitment to excellence is evident in my track record of delivering high-quality outcomes, coupled with comprehensive experience in project management, requirements gathering, and documentation. Notable achievements include leading the creation and enhancement of standard functionalities, orchestrating seamless object migrations, and improving fall detection accuracy through machine learning models. My dedication to innovation and efficiency, coupled with a strong technical skill set, positions me as a valuable asset in the dynamic field of computer science.",
+		// "As a recent graduate with a Master's degree in Information Technology, I am eager to apply my knowledge and skills to contribute to your team and further develop my career in software development. During my studies, I gained a strong foundation in computer science fundamentals and acquired hands-on experience in programming languages such as Java, Python, JavaScript and C++. Additionally, I have completed projects that demonstrate my ability to work effectively in a team, manage project timelines, and deliver high-quality software solutions.",
 	},
 
 	articles: {
@@ -35,46 +37,27 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Project 1",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+			title: "Project 1 - Front/Back-End Developer",
+			description: `Integrated MongoDB for enhanced user interface and real-time data updates, and optimized video storage with AWS for efficient access. Improved fall detection accuracy by 15% through machine learning model adjustments, orchestrated end-to-end development with Express, MVC architecture, and 98% code functionality validation using Chai testing.`,
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
 			link: "https://github.com",
 		},
 
 		{
-			title: "Project 2",
+			title: "Project 2 - Front/Back-End Developer",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"Created a cookery web page allowing recipe and video uploads, implementing MongoDB for real-time updates. Illustrated app using low-fidelity models, ensuring a user-friendly interface along with implementing socket-based communication for real-time interaction between users, adhering to best programming practices.",
+			linkText: "View Project",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			link: "https://github.com",
+		},
+
+		{
+			title: "Project 3 - Data Scientist",
+			description:
+				"Conducted research on diverse datasets, identifying patterns, and employed Tableau and Python for data cleaning, graph design, and presentation to the team. Leveraged Tableau and Python for comprehensive data analysis, including data collection, cleaning, and visualization.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 3",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 4",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 5",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
 			link: "https://github.com",
 		},
