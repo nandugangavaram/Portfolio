@@ -1,5 +1,7 @@
 # Welcome to Gouri Nandan Reddy, Gangavaram's Portfolio
 
+### [Resume Link](https://drive.google.com/file/d/16mkKYxMXllArbSzRI37rD4vytA0Jn13A/view?usp=sharing)
+
 ## About Me
 
 I am an IT Master's graduate with a computer science background, boasting 2 years of experience as an Associate Consultant. Proficient in Java, Python, JavaScript, and SQL, I have successfully contributed to various projects, enhancing product functionality, optimizing data processing efficiency, and fostering collaboration within teams. My expertise spans both front-end and back-end development, encompassing data science, DevOps tools, and UI/UX design. My commitment to excellence is evident in my track record of delivering high-quality outcomes, coupled with comprehensive experience in project management, requirements gathering, and documentation. Notable achievements include leading the creation and enhancement of standard functionalities, orchestrating seamless object migrations, and improving fall detection accuracy through machine learning models. My dedication to innovation and efficiency, coupled with a strong technical skill set, positions me as a valuable asset in the dynamic field of computer science.
