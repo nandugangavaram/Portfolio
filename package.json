@@ -1,11 +1,11 @@
 {
-	"name": "reactfolio",
+	"name": "Portfolio",
 	"version": "1.1.0",
+	"homepage": "https://nandugangavaram.github.io/Portfolio",
 	"description": "Personal portfolio template built using Reactjs",
 	"author": {
-		"name": "Tharindu N. Madhusanka",
-		"email": "mail@tharindu.dev",
-		"url": "https://tharindu.dev"
+		"name": "Gouri Nandan Reddy G",
+		"email": "nandugangavaram@gmail.com"
 	},
 	"license": "MIT",
 	"private": true,
@@ -28,6 +28,8 @@
 		"web-vitals": "^2.1.4"
 	},
 	"scripts": {
+		"predeploy": "npm run build",
+		"deploy": "nandugangavaram -d build",
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
