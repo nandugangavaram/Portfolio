@@ -3,7 +3,7 @@ const INFO = {
 		title: "Reactfolio by Gouri Nandan Reddy G",
 		name: "Gouri Nandan Reddy Gangavaram",
 		email: "nandugangavaram@gmail.com",
-		logo: "Portfolio/logo.png",
+		logo: "./Portfolio/logo.png",
 	},
 
 	socials: {
