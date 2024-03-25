@@ -21,7 +21,7 @@ const Works = () => {
 							/>
 							<div className="work-title">M3IOX LLC</div>
 							<div className="work-subtitle">
-								Associate Consultant
+								Technical Consultant
 							</div>
 							<div className="work-duration">
 								Dec, 2022 - Mar, 2023
@@ -38,7 +38,7 @@ const Works = () => {
 								Infor India Pvt Limited
 							</div>
 							<div className="work-subtitle">
-								Associate Consultant
+								Technical Consultant
 							</div>
 							<div className="work-duration">
 								Jul, 2019 - Jun, 2021

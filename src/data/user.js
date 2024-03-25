@@ -1,3 +1,5 @@
+const ResumeURL =
+	"https://drive.google.com/file/d/16mkKYxMXllArbSzRI37rD4vytA0Jn13A/view?usp=sharing";
 const INFO = {
 	main: {
 		title: "Reactfolio by Gouri Nandan Reddy G",
@@ -40,17 +42,17 @@ const INFO = {
 			title: "Project 1 - Front/Back-End Developer",
 			description: `Integrated MongoDB for enhanced user interface and real-time data updates, and optimized video storage with AWS for efficient access. Improved fall detection accuracy by 15% through machine learning model adjustments, orchestrated end-to-end development with Express, MVC architecture, and 98% code functionality validation using Chai testing.`,
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
+			linkText: "View Project in Resume",
+			link: ResumeURL,
 		},
 
 		{
 			title: "Project 2 - Front/Back-End Developer",
 			description:
 				"Created a cookery web page allowing recipe and video uploads, implementing MongoDB for real-time updates. Illustrated app using low-fidelity models, ensuring a user-friendly interface along with implementing socket-based communication for real-time interaction between users, adhering to best programming practices.",
-			linkText: "View Project",
+			linkText: "View Project in Resume",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			link: "https://github.com",
+			link: ResumeURL,
 		},
 
 		{
@@ -58,8 +60,8 @@ const INFO = {
 			description:
 				"Conducted research on diverse datasets, identifying patterns, and employed Tableau and Python for data cleaning, graph design, and presentation to the team. Leveraged Tableau and Python for comprehensive data analysis, including data collection, cleaning, and visualization.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			linkText: "View Project",
-			link: "https://github.com",
+			linkText: "View Project in Resume",
+			link: ResumeURL,
 		},
 	],
 };

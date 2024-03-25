@@ -1,0 +1,29 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	margin: 0;
+	padding-top: 120px;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+}
+.page-container {
+	overflow: hidden;
+}
+.PDFViewer {
+	display: block;
+	background: #000;
+	border: none;
+	width: 800px;
+	height: 1000px;
+}
+@media (max-width: 1200px) {
+	.PDFViewer {
+		display: block;
+		background: #000;
+		border: none;
+		width: 800px;
+		height: 630px;
+	}
+}
