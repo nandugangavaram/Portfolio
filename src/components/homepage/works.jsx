@@ -16,7 +16,7 @@ const Works = () => {
 						<div className="work">
 							<img
 								src="../Portfolio/m3iox_logo.png"
-								alt="facebook"
+								alt="M3IOX LLC"
 								className="work-image"
 							/>
 							<div className="work-title">M3IOX LLC</div>
@@ -31,7 +31,7 @@ const Works = () => {
 						<div className="work">
 							<img
 								src="../Portfolio/infor_logo.png"
-								alt="twitter"
+								alt="Infor Pvt Ltd"
 								className="work-image"
 							/>
 							<div className="work-title">
@@ -48,7 +48,7 @@ const Works = () => {
 						<div className="work">
 							<img
 								src="../Portfolio/hexagon_logo.png"
-								alt="twitter"
+								alt="Hexagon"
 								className="work-image"
 							/>
 							<div className="work-title">
