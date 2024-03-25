@@ -37,6 +37,7 @@ const Projects = () => {
 							<Logo width={46} />
 						</div>
 					</div>
+					<br />
 					<div className="projects-container">
 						<div className="title projects-title">
 							Below are some of the projects I've worked on.

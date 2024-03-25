@@ -37,7 +37,8 @@ const About = () => {
 							<Logo width={46} />
 						</div>
 					</div>
-
+					<br />
+					<br />
 					<div className="about-container">
 						<div className="about-main">
 							<div className="about-right-side">

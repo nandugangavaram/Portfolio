@@ -27,3 +27,21 @@
 		height: 630px;
 	}
 }
+@media (max-width: 800px) {
+	.container {
+		display: flex;
+		flex-direction: column;
+		margin: 0;
+		padding-top: 100px;
+		align-items: center;
+		justify-content: center;
+		overflow: hidden;
+	}
+	.PDFViewer {
+		display: block;
+		background: #000;
+		border: none;
+		width: 400px;
+		height: 500px;
+	}
+}
