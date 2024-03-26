@@ -114,4 +114,7 @@
 	.about-image-container {
 		width: 80%;
 	}
+	.about-container {
+		transform: translateY(-1.5%);
+	}
 }

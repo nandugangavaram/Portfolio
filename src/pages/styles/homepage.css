@@ -152,6 +152,12 @@
 }
 
 @media (max-width: 600px) {
+	.homepage-image-wrapper {
+		height: 110%;
+	}
+	.homepage-container {
+		transform: translateY(-2%);
+	}
 	.homepage-logo-container {
 		padding-top: 0px;
 		margin-top: 20px;
