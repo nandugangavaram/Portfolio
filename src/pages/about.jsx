@@ -10,6 +10,7 @@ import INFO from "../data/user";
 import SEO from "../data/seo";
 
 import "./styles/about.css";
+import { Fade } from "react-awesome-reveal";
 
 const About = () => {
 	useEffect(() => {
@@ -45,26 +46,31 @@ const About = () => {
 								<div className="title about-title">
 									{INFO.about.title}
 								</div>
-
-								<div className="subtitle about-subtitle">
-									{INFO.about.description}
-								</div>
+								<Fade direction="down">
+									<div className="subtitle about-subtitle">
+										{INFO.about.description}
+									</div>
+								</Fade>
 							</div>
 
 							<div className="about-left-side">
 								<div className="about-image-container">
 									<div className="about-image-wrapper">
-										<img
-											src="Portfolio/img1.jpg"
-											alt="about"
-											className="about-image"
-										/>
+										<Fade direction="right">
+											<img
+												src="Portfolio/img1.jpg"
+												alt="about"
+												className="about-image"
+											/>
+										</Fade>
 									</div>
 								</div>
 
-								<div className="about-socials">
-									<Socials />
-								</div>
+								<Fade direction="down">
+									<div className="about-socials">
+										<Socials />
+									</div>
+								</Fade>
 							</div>
 						</div>
 						<div className="about-socials-mobile">

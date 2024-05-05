@@ -21,6 +21,7 @@ import INFO from "../data/user";
 import SEO from "../data/seo";
 
 import "./styles/homepage.css";
+import { Fade } from "react-awesome-reveal";
 
 const Homepage = () => {
 	const [stayLogo, setStayLogo] = useState(false);
@@ -94,85 +95,71 @@ const Homepage = () => {
 									{INFO.homepage.title}
 								</div>
 
-								<div className="subtitle homepage-subtitle">
-									{INFO.homepage.description}
-								</div>
+								<Fade direction="down">
+									<div className="subtitle homepage-subtitle">
+										{INFO.homepage.description}
+									</div>
+								</Fade>
 							</div>
 
 							<div className="homepage-first-area-right-side">
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
-										<img
-											src="../Portfolio/img2.jpg"
-											alt="about"
-											className="homepage-image"
-										/>
+										<Fade direction="right">
+											<img
+												src="../Portfolio/img2.jpg"
+												alt="about"
+												className="homepage-image"
+											/>
+										</Fade>
 									</div>
 								</div>
 							</div>
 						</div>
 
 						<div className="homepage-socials">
-							{/* <a
-								href={INFO.socials.twitter}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faTwitter}
-									className="homepage-social-icon"
-								/>
-							</a> */}
-							<a
-								href={INFO.socials.github}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faGithub}
-									className="homepage-social-icon"
-								/>
-							</a>
-							<a
-								href={INFO.socials.linkedin}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faLinkedin}
-									className="homepage-social-icon"
-								/>
-							</a>
-							{/* <a
-								href={INFO.socials.stackoverflow}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faStackOverflow}
-									className="homepage-social-icon"
-								/>
-							</a> */}
-							<a
-								href={INFO.socials.instagram}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faInstagram}
-									className="homepage-social-icon"
-								/>
-							</a>
-							<a
-								href={`mailto:${INFO.main.email}`}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faMailBulk}
-									className="homepage-social-icon"
-								/>
-							</a>
+							<Fade direction="up">
+								<a
+									href={INFO.socials.github}
+									target="_blank"
+									rel="noreferrer"
+								>
+									<FontAwesomeIcon
+										icon={faGithub}
+										className="homepage-social-icon"
+									/>
+								</a>
+								<a
+									href={INFO.socials.linkedin}
+									target="_blank"
+									rel="noreferrer"
+								>
+									<FontAwesomeIcon
+										icon={faLinkedin}
+										className="homepage-social-icon"
+									/>
+								</a>
+								<a
+									href={INFO.socials.instagram}
+									target="_blank"
+									rel="noreferrer"
+								>
+									<FontAwesomeIcon
+										icon={faInstagram}
+										className="homepage-social-icon"
+									/>
+								</a>
+								<a
+									href={`mailto:${INFO.main.email}`}
+									target="_blank"
+									rel="noreferrer"
+								>
+									<FontAwesomeIcon
+										icon={faMailBulk}
+										className="homepage-social-icon"
+									/>
+								</a>
+							</Fade>
 						</div>
 
 						<div className="homepage-projects">

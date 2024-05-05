@@ -10,6 +10,7 @@ import INFO from "../data/user";
 import SEO from "../data/seo";
 
 import "./styles/contact.css";
+import { Fade } from "react-awesome-reveal";
 
 const Contact = () => {
 	useEffect(() => {
@@ -42,36 +43,39 @@ const Contact = () => {
 						<div className="title contact-title">
 							Let's Get in Touch: Ways to Connect with Me
 						</div>
-
-						<div className="subtitle contact-subtitle">
-							Thank you for your interest in getting in touch with
-							me. I welcome your questions, or any addition
-							information required from my end. If you have a
-							specific question or comment, please feel free to
-							email me directly at&nbsp;{" "}
-							<a href={`mailto:${INFO.main.email}`}>
-								{INFO.main.email}
-							</a>
-							. Finally, if you prefer to connect on Linked In,
-							you can find me on{" "}
-							<a
-								href={
-									"https://in.linkedin.com/in/gouri-nandan-reddy-gangavaram-889b4315a"
-								}
-								target="_blank"
-								rel="noreferrer"
-							>
-								LinkedIn Profile
-							</a>
-							. Thanks again for your interest, and I look forward
-							to hearing from you!
-						</div>
+						<Fade direction="down">
+							<div className="subtitle contact-subtitle">
+								Thank you for your interest in getting in touch
+								with me. I welcome your questions, or any
+								addition information required from my end. If
+								you have a specific question or comment, please
+								feel free to email me directly at&nbsp;{" "}
+								<a href={`mailto:${INFO.main.email}`}>
+									{INFO.main.email}
+								</a>
+								. Finally, if you prefer to connect on Linked
+								In, you can find me on{" "}
+								<a
+									href={
+										"https://in.linkedin.com/in/gouri-nandan-reddy-gangavaram-889b4315a"
+									}
+									target="_blank"
+									rel="noreferrer"
+								>
+									LinkedIn Profile
+								</a>
+								. Thanks again for your interest, and I look
+								forward to hearing from you!
+							</div>
+						</Fade>
 					</div>
 
 					<div className="socials-container">
-						<div className="contact-socials">
-							<Socials />
-						</div>
+						<Fade direction="down">
+							<div className="contact-socials">
+								<Socials />
+							</div>
+						</Fade>
 					</div>
 
 					<div className="page-footer">
